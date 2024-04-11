@@ -77,6 +77,7 @@
         </nav>
       </div>
     </header>
+
     <main class="layout layout--3">
       <div class="container">
         <!-- Topics Start -->
@@ -301,3 +302,16 @@
     <script src="script.js"></script>
   </body>
 </html>
+
+<!-- <div class="home-container">
+  <div>{% include 'base/topics_component.html' %}</div>
+
+  <div>
+    <h5>{{ room_count }} rooms avaliable</h5>
+    <a href="{% url 'create-room' %}">Create Room</a>
+    {% include 'base/rooms_component.html' %}
+  </div>
+  <div>{% include 'base/activity_component.html' %}</div>
+</div>
+
+{% endblock %} -->
